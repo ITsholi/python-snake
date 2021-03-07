@@ -102,6 +102,8 @@ while run:
             x_change = 0
             y_change = 0
             speed = 10
+            total = 0
+            score_need = 0
             break
     pygame.font.init()
     font = pygame.font.SysFont('arial', 48)

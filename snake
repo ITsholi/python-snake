@@ -67,8 +67,7 @@ while run:
             total += 1
             print(score)
             counter = 0
-            tails.append([snake_x + score * 10, snake_y + score * 10])
-            tails.append([snake_x + score * 10, snake_y + score * 10])
+            tails.append([snake_x, snake_y])
             screenfood = False
 
     for t in tails:
